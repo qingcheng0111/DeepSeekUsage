@@ -10,7 +10,7 @@ DeepSeekUsage is a lightweight, privacy-first **macOS menu bar app** that shows 
 
 This project is a heavily customized fork of the open-source [DeepSeekMeter](https://github.com/CWNU-Open-Source-Community/DeepSeekMeter) project (by pppolf, MIT): fully Chinese UI, an added "time dimension" selector, platform-aligned usage metrics, chart enhancements, and more (see [Differences from upstream](#differences-from-upstream-deepseekmeter-v031)).
 
-Current version: **v0.5.0** (macOS).
+Current version: **v0.6.0** (macOS).
 
 ## Features
 
@@ -48,7 +48,7 @@ Current version: **v0.5.0** (macOS).
 
 ### Option 1: DMG (recommended)
 
-1. Download `DeepSeekUsage-0.5.0-macOS.dmg` from the [Releases page](https://github.com/923106608-lang/DeepSeekUsage/releases).
+1. Download `DeepSeekUsage-0.6.0-macOS.dmg` from the [Releases page](https://github.com/923106608-lang/DeepSeekUsage/releases).
 2. Open the DMG and drag `DeepSeekUsage` onto the Applications shortcut.
 3. If Gatekeeper blocks the first launch, **right-click → Open** (the build is ad-hoc signed; Developer ID notarization is not configured).
 4. Click the menu bar icon → choose "一键登录" (one-click login) in the panel → sign in on the official DeepSeek page. The panel loads your data automatically after you return.
@@ -118,13 +118,13 @@ images/                  UI screenshots
 
 | Date | Version | Change |
 | :--- | :--- | :--- |
-| 2026-10-15 | 0.5.0-r8 | Bar hover tooltip in the token trend chart (date · daily tokens) |
-| 2026-10-15 | 0.5.0-r7 | 30-day x-axis now labels every day (adaptive cell width and font size) |
-| 2026-10-15 | 0.5.0-r6 | X-axis date label fix (superseded by r7) |
-| 2026-10-15 | 0.5.0-r5 | Metric corrections: total tokens (input + output), same-currency multi-key aggregation, Total as the default trend view, Last-30-days as the default dimension |
-| 2026-10-15 | 0.5.0-r4 | Reset the time dimension popover state when the panel closes / reopens |
-| 2026-10-15 | 0.5.0-r3 | Mini-popover finalized: 6 presets, overlay style, 150×172, centered labels |
-| 2026-10-15 | 0.5.0 | Based on upstream v0.3.1: rename, time dimension, metric overhaul, click-outside-to-dismiss |
+| 2026-10-15 | 0.6.0-r8 | Bar hover tooltip in the token trend chart (date · daily tokens) |
+| 2026-10-15 | 0.6.0-r7 | 30-day x-axis now labels every day (adaptive cell width and font size) |
+| 2026-10-15 | 0.6.0-r6 | X-axis date label fix (superseded by r7) |
+| 2026-10-15 | 0.6.0-r5 | Metric corrections: total tokens (input + output), same-currency multi-key aggregation, Total as the default trend view, Last-30-days as the default dimension |
+| 2026-10-15 | 0.6.0-r4 | Reset the time dimension popover state when the panel closes / reopens |
+| 2026-10-15 | 0.6.0-r3 | Mini-popover finalized: 6 presets, overlay style, 150×172, centered labels |
+| 2026-10-15 | 0.6.0 | Based on upstream v0.3.1: rename, time dimension, metric overhaul, click-outside-to-dismiss |
 
 ## FAQ
 
